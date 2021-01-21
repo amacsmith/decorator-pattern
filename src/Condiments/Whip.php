@@ -13,7 +13,8 @@ class Whip extends CondimentDecorator
      * Whip constructor.
      * @param Beverage $beverage
      */
-    public function __construct(Beverage $beverage){
+    public function __construct(Beverage $beverage)
+    {
         $this->beverage = $beverage;
     }
 
