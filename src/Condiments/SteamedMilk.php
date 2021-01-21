@@ -8,11 +8,15 @@ use AMacSmith\DecoratorPattern\Description;
 
 class SteamedMilk extends CondimentDecorator
 {
+    private Beverage $beverage;
+
     /**
      * SteamedMilk constructor.
      * @param Beverage $beverage
      */
-    public function __construct(private Beverage $beverage){}
+    public function __construct(Beverage $beverage){
+        $this->beverage = $beverage;
+    }
 
     public function cost(): float
     {

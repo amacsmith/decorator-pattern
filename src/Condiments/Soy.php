@@ -7,11 +7,15 @@ use AMacSmith\DecoratorPattern\CondimentDecorator;
 
 class Soy extends CondimentDecorator
 {
+    private Beverage $beverage;
+
     /**
      * Soy constructor.
      * @param Beverage $beverage
      */
-    public function __construct(private Beverage $beverage){}
+    public function __construct(Beverage $beverage){
+        $this->beverage = $beverage;
+    }
 
     /**
      * @return float
