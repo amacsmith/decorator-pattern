@@ -4,7 +4,6 @@ namespace AMacSmith\DecoratorPattern\Condiments;
 
 use AMacSmith\DecoratorPattern\Beverage;
 use AMacSmith\DecoratorPattern\CondimentDecorator;
-use AMacSmith\DecoratorPattern\Description;
 
 class SteamedMilk extends CondimentDecorator
 {
@@ -14,7 +13,8 @@ class SteamedMilk extends CondimentDecorator
      * SteamedMilk constructor.
      * @param Beverage $beverage
      */
-    public function __construct(Beverage $beverage){
+    public function __construct(Beverage $beverage)
+    {
         $this->beverage = $beverage;
     }
 

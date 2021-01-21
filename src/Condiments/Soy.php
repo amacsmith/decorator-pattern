@@ -13,7 +13,8 @@ class Soy extends CondimentDecorator
      * Soy constructor.
      * @param Beverage $beverage
      */
-    public function __construct(Beverage $beverage){
+    public function __construct(Beverage $beverage)
+    {
         $this->beverage = $beverage;
     }
 

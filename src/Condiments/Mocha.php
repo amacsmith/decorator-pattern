@@ -13,7 +13,8 @@ class Mocha extends CondimentDecorator
      * Mocha constructor.
      * @param Beverage $beverage
      */
-    public function __construct(Beverage $beverage){
+    public function __construct(Beverage $beverage)
+    {
         $this->beverage = $beverage;
     }
 
