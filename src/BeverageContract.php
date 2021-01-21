@@ -1,8 +1,6 @@
 <?php
 
-
 namespace AMacSmith\DecoratorPattern;
-
 
 interface BeverageContract
 {
