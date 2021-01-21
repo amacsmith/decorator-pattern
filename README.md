@@ -6,6 +6,7 @@ Implementation of the decorator pattern given a problem.
 
 [![codecov](https://codecov.io/gh/amacsmith/decorator-pattern/branch/main/graph/badge.svg)](https://codecov.io/gh/amacsmith/decorator-pattern)
 
+[![StyleCI](https://github.styleci.io/repos/331202254/shield?branch=main)]
 
 Usage
 
