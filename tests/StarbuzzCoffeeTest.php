@@ -4,13 +4,13 @@ namespace AMacSmith\DecoratorPattern\Tests;
 
 use AMacSmith\DecoratorPattern\Beverages\DarkRoast;
 use AMacSmith\DecoratorPattern\Beverages\Decaf;
+use AMacSmith\DecoratorPattern\Beverages\Espresso;
 use AMacSmith\DecoratorPattern\Beverages\HouseBlend;
 use AMacSmith\DecoratorPattern\Condiments\Mocha;
 use AMacSmith\DecoratorPattern\Condiments\Soy;
 use AMacSmith\DecoratorPattern\Condiments\SteamedMilk;
 use AMacSmith\DecoratorPattern\Condiments\Whip;
 use PHPUnit\Framework\TestCase;
-use AMacSmith\DecoratorPattern\Beverages\Espresso;
 
 class StarbuzzCoffeeTest extends TestCase
 {
